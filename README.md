@@ -152,3 +152,13 @@ Since MongoDB was used instead of PostgreSQL/MySQL due to my current experience 
 
 <img width="1833" height="950" alt="Screenshot 2026-09-10 131142" src="https://github.com/user-attachments/assets/f8ba4761-3655-4423-9f6f-4b2103b1db5e" />
 
+## Store Owner
+
+<img width="1831" height="953" alt="Screenshot 2026-09-10 131250" src="https://github.com/user-attachments/assets/7337afc1-5ff1-420c-85f3-e88fb48f4b2a" />
+
+<img width="1832" height="958" alt="Screenshot 2026-09-10 131302" src="https://github.com/user-attachments/assets/5e41edc1-a9c5-4307-9821-5344bf288076" />
+
+
+
+
+
