@@ -158,7 +158,14 @@ Since MongoDB was used instead of PostgreSQL/MySQL due to my current experience 
 
 <img width="1832" height="958" alt="Screenshot 2026-09-10 131302" src="https://github.com/user-attachments/assets/5e41edc1-a9c5-4307-9821-5344bf288076" />
 
+## User
+
+<img width="1827" height="952" alt="Screenshot 2026-09-10 131348" src="https://github.com/user-attachments/assets/3857a741-3a4b-4e19-b6d5-8e7a635ece7a" />
 
 
+<img width="1830" height="952" alt="Screenshot 2026-09-10 131409" src="https://github.com/user-attachments/assets/89b83445-7172-4946-b202-099ab2b71b30" />
+
+
+<img width="1832" height="960" alt="Screenshot 2026-09-10 131429" src="https://github.com/user-attachments/assets/048ae36c-2380-49e7-866e-6abd7dccf8a2" />
 
 
