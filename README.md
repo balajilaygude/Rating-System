@@ -15,3 +15,105 @@ Also, the current frontend is **not responsive yet**. The UI has currently been 
 Thank you for taking the time to review my project.
 
 ---
+
+# Installation
+
+clone the repo
+
+# Backend Setup
+
+Open a terminal and navigate to the backend folder:
+
+```bash
+cd backend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file inside the `backend` folder:
+
+```env
+PORT=5000
+MONGO_URI=mongodb://127.0.0.1:27017/store-rating-app
+JWT_SECRET=your_super_secret_jwt_key_123
+```
+
+Update the MongoDB connection string if you want to use a different database name or a MongoDB Atlas connection.
+
+Start the backend:
+
+```bash
+npm run dev
+```
+
+The backend should run on:
+
+```text
+http://localhost:5000
+```
+
+---
+
+# Seed Database
+
+The project includes seed data for testing.
+
+From the `backend` folder:
+
+```bash
+node scripts/seedData.js
+```
+
+The seed creates sample:
+
+* 1 Admin
+* 8 Store Owners
+* 20 Normal Users
+* 10 Stores
+* Sample ratings
+
+The seed script also calculates the store rating information.
+
+> Running the seed script clears the existing users, stores, and ratings before inserting the sample data.
+
+---
+
+# Frontend Setup
+
+Open another terminal:
+
+```bash
+cd frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file inside the `frontend` folder:
+
+```env
+VITE_API_URL=http://localhost:5000/api
+```
+
+Start the frontend:
+
+```bash
+npm run dev
+```
+
+Vite will provide a local URL, usually:
+
+```text
+http://localhost:5173
+```
+
+Open that URL in your browser.
+
+---
