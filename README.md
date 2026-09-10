@@ -38,8 +38,8 @@ Create a `.env` file inside the `backend` folder:
 
 ```env
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/store-rating-app
-JWT_SECRET=your_super_secret_jwt_key_123
+MONGO_URI="mongodb://127.0.0.1:27017/store-rating-app"
+JWT_SECRET='your_super_secret_jwt_key_123"
 ```
 
 Update the MongoDB connection string if you want to use a different database name or a MongoDB Atlas connection.
@@ -65,7 +65,7 @@ The project includes seed data for testing.
 From the `backend` folder:
 
 ```bash
-node scripts/seedData.js
+node src/seedData.js
 ```
 
 The seed creates sample:
