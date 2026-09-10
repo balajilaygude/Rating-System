@@ -142,3 +142,13 @@ I would especially appreciate feedback on the **frontend and backend structure, 
 
 Since MongoDB was used instead of PostgreSQL/MySQL due to my current experience level, feedback on the database design and whether the MongoDB implementation correctly represents the required relationships would also be very helpful.
 
+# Demo Images 
+
+## Admin
+
+<img width="1835" height="955" alt="Screenshot 2026-09-10 131041" src="https://github.com/user-attachments/assets/bb3c7cc4-d04f-470c-81f7-5569bb517756" />
+
+<img width="1835" height="956" alt="Screenshot 2026-09-10 131122" src="https://github.com/user-attachments/assets/67551aaa-702d-4fcf-af5d-5aabe7bc4e32" />
+
+<img width="1833" height="950" alt="Screenshot 2026-09-10 131142" src="https://github.com/user-attachments/assets/f8ba4761-3655-4423-9f6f-4b2103b1db5e" />
+
