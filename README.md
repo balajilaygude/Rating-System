@@ -117,3 +117,28 @@ http://localhost:5173
 Open that URL in your browser.
 
 ---
+
+# Important Notes
+
+### Database Choice
+
+The assignment originally specified PostgreSQL/MySQL. Since I had not previously worked with PostgreSQL, I implemented the database layer using **MongoDB and Mongoose**.
+
+The rest of the application architecture follows the assignment requirements as closely as possible.
+
+### Responsive Design
+
+The frontend is currently optimized for **laptop/desktop screens**.
+
+Responsive/mobile support has **not been implemented yet** and would be a future improvement.
+
+---
+
+# Thank You
+
+Thank you for taking the time to review this project.
+
+I would especially appreciate feedback on the **frontend and backend structure, implementation quality, database design, authentication, and overall approach**.
+
+Since MongoDB was used instead of PostgreSQL/MySQL due to my current experience level, feedback on the database design and whether the MongoDB implementation correctly represents the required relationships would also be very helpful.
+
