@@ -1,7 +1,5 @@
 const { body } = require("express-validator");
 
-const passwordRule =
-  /^(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,16}$/;
 
 const createUserValidation = [
   body("name")
