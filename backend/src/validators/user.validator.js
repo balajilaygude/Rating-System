@@ -42,10 +42,7 @@ const createStoreValidation = [
       "Store name must be between 20 and 60 characters"
     ),
 
-  body("email")
-    .trim()
-    .isEmail()
-    .withMessage("Please provide a valid email"),
+  
 
   body("address")
     .trim()
@@ -56,7 +53,9 @@ const createStoreValidation = [
       "Address cannot exceed 400 characters"
     ),
 
-
+  body("owner")
+    .notEmpty()
+    .withMessage("Store owner is required"),
 ];
 
 module.exports = {
