@@ -56,9 +56,7 @@ const createStoreValidation = [
       "Address cannot exceed 400 characters"
     ),
 
-  body("owner")
-    .notEmpty()
-    .withMessage("Store owner is required"),
+
 ];
 
 module.exports = {
