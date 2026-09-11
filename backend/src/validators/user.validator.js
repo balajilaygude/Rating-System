@@ -32,7 +32,15 @@ const createUserValidation = [
 ];
 
 const createStoreValidation = [
-
+  body("name")
+    .trim()
+    .isLength({
+      min: 20,
+      max: 60,
+    })
+    .withMessage(
+      "Store name must be between 20 and 60 characters"
+    ),
 
   body("email")
     .trim()
